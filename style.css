@@ -1,0 +1,112 @@
+body {
+    background-color: #ffe6f0;
+  text-align: center;
+  padding-top: 100px;
+  font-family: Arial, sans-serif;
+}
+h1 {
+  color: #d63384;
+  font-size: 45px;
+  margin-bottom: 20px
+  }
+p {
+    color: #b83280;
+    font-size: 18px;
+  line-height: 1.6;
+}
+.card {
+  background-color: white;
+  width: 80%;
+  margin: 0 auto;
+  padding: 40px 20px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1)
+  }
+button {
+    background-color: #d63384;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 16px;
+}
+button:hover {
+    background-color: #b83280;
+}
+#surprise {
+  display: none;
+  }
+#surprise {
+  color: #d63384;
+  }
+.message {
+    margin-top: 40px;
+    padding: 30px 20px;
+}
+.message h2 {
+    color: #d63384;
+    font-size: 30px;
+}
+.message p {
+    color: #b83280;
+    font-size: 18px;
+    line-height: 1.6;
+}
+.memories {
+  margin-top: 40px;
+  padding: 30px 20px;
+  }
+.memories img {
+  width: 250px;
+  border-radius: 15px;
+  margin-top: 20px;
+  background-color: white;
+  padding: 10px;
+  padding-bottom: 20px;
+  animation: fadeIn 4.5s ease-in
+  }
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+.final-surprise {
+    margin-top: 50px;
+    padding: 40px 20px;
+    text-align: center;
+}
+.final-surprise h2 {
+    color: #d63384;
+    font-size: 30px;
+}
+.final-surprise button {
+    background-color: #d63384;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 16px;
+}
+#finalMessage {
+    display: none;
+  margin-top: 25px;
+    padding: 25px 20px;
+    border-radius: 30px;
+    border: 2px solid #ffd6e7;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+#anonymousMessage {
+    display: none;
+}
+#anonymousMessage {
+    background-color: white;
+    margin-top: 25px;
+    padding: 25px 20px;
+    border-radius: 25px;
+    border: 2px solid #ffd6e7;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
